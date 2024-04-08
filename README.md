@@ -39,8 +39,6 @@ This folder mainly stores various SLAM algorithms based on Laser, and is divided
   
 - [NeRF SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/NeRF%20SLAM): This is a relatively new SLAM algorithm, which mainly integrates [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF) ideas(very hot in 2020) into laser SLAM. At present, there are few reasches, but it is a very hot and concerned direction.
   
-- [Semantic SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Semantic%20SLAM): Semantic segmentation of point cloud extracted by LiDAR is carried out, and the results of semantic segmentation are used in SLAM to improve location accuracy and build more high-level maps that are easier to be understood by people.
-  
 - [Traditional SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM): Without the use of advanced algorithms (such as neural networks, etc.), the pose of the robot is usually calculated by feature extraction and feature matching algorithms such as ICP. It is further divided into 2D and 3D application scenarios:
   
   - [2D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/2D): Just includes some classic paper, such as gmapping, cartographer, etc.
@@ -73,8 +71,6 @@ This folder mainly stores various SLAM algorithms based on Camera, and is divide
 - [NeRF SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Visual%20SLAM/NeRF%20SLAM): This is a relatively new SLAM algorithm, which mainly integrates [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF) ideas(very hot in 2020) into Visual SLAM. At present, it is a very hot and concerned direction.
 
 - [Object SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Visual%20SLAM/Objects%20SLAM): There are some methods integrating object detection into SLAM pipeline to improve the accuracy of location by regarding objects as feature or providing semantic understanding to the agent.
-  
-- [Semantic SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Visual%20SLAM/Semantic%20SLAM): Semantic segmentation of image or point cloud obtained by camera is carried out, and the results of semantic segmentation are used in SLAM to improve location accuracy and build more high-level maps that are easier to be understood by people.
   
 - [Traditional SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Visual%20SLAM/Traditional%20SLAM): Without the use of advanced algorithms (such as neural networks, etc.), the pose of the robot is usually calculated by classic feature extraction and feature matching algorithms. It is further divided into  and 3D application scenarios:
   
