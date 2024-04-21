@@ -10,7 +10,6 @@ SLAM_Paper
 ├─Laser SLAM
 │   ├─Dynamic SLAM
 │   ├─NeRF SLAM
-│   ├─Semantic SLAM
 │   └─Traditional SLAM
 |      ├─2D
 |      └─3D
@@ -21,14 +20,17 @@ SLAM_Paper
 |   ├─Network
 |   └─Semantic Segmentation
 └─Visual SLAM
-    ├─Dynamic SLAM
-    ├─Learning-based SLAM
-    ├─NeRF SLAM
-    ├─Objects SLAM
-    ├─Semantic SLAM
-    └─Traditional SLAM
-       ├─Direct-based
-       └─Feature-based
+|   ├─Dynamic SLAM
+|   ├─Learning-based SLAM
+|   ├─NeRF SLAM
+|   ├─Objects SLAM
+|   └─Traditional SLAM
+|      ├─Direct-based
+|      └─Feature-based
+└─Long-term Localization and Mapping
+    └─Dynamic Map Maintenance
+
+
 ```
 
 ## [Laser SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM)
