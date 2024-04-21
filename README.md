@@ -79,6 +79,12 @@ This folder mainly stores various SLAM algorithms based on Camera, and is divide
   - [Direct-based](https://github.com/Yaepiii/SLAM_Paper/tree/main/Visual%20SLAM/Traditional%20SLAM/Direct-based): SLAM with using a direct method to calculate errors to locate agent, such as photometric errors.
     
   - [Feature-based](https://github.com/Yaepiii/SLAM_Paper/tree/main/Visual%20SLAM/Traditional%20SLAM/Feature-based): SLAM with usng a feature extraction and feature matching method to calculate errors to locate agent, the most classic method being ORB-SLAM series.
+ 
+## [Long-term Localization and Mapping](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping)
+
+This folder mainly stores various methods on long-term localization and mapping and is divided into the following parts according to different application fields or research methods:
+
+- [Dynamic Map Maintenance](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Dynamic%20Map%20Maintenance): There are some methods about map maintaince through dynamic removal.
 
 ongoing update...
 
