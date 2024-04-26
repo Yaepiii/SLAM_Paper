@@ -15,6 +15,7 @@ SLAM_Paper
 |      └─3D
 |─Related Method
 |   ├─Feature Detection
+|   ├─MOS
 |   ├─MVS
 |   ├─NeRF
 |   ├─Network
