@@ -52,6 +52,12 @@ This folder mainly stores various SLAM algorithms based on Laser, and is divided
 
 This folder mainly stores algorithms that assist SLAM:
 
+- [Classification](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/Classsification): Some classic papers about classification method.
+
+- [MOS](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/MOS): Some classic papers about Moving Object Segmentation, which will make some contributions to Dynamic SLAM and Long-term map maintenance.
+
+- [MVS](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/MVS): Some classic papers about Motion-from-Structure, which will be similar to SLAM.
+
 - [Feature Detection](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/Feature%20Detection): is used to extract feature points before SLAM.
 
 - [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF): Some classic papers about NeRF's principle.
