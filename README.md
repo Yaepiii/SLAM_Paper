@@ -93,6 +93,8 @@ This folder mainly stores various methods on long-term localization and mapping 
 
 - [Dynamic Map Maintenance](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Dynamic%20Map%20Maintenance): There are some methods about map maintaince through dynamic removal.
 
+- [Long-term Relocalization and Place Recognition](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Long-term%20Relocalization%20and%20Place%20Recognition): There are some methods about Place Recognition and Loop Closure.
+
 ongoing update...
 
 
