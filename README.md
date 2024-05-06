@@ -29,7 +29,8 @@ SLAM_Paper
 |      ├─Direct-based
 |      └─Feature-based
 └─Long-term Localization and Mapping
-    └─Dynamic Map Maintenance
+    ├─Dynamic Map Maintenance
+    └─Long-term Relocalization and Place Recognition
 
 
 ```
@@ -91,9 +92,9 @@ This folder mainly stores various SLAM algorithms based on Camera, and is divide
 
 This folder mainly stores various methods on long-term localization and mapping and is divided into the following parts according to different application fields or research methods:
 
-- [Dynamic Map Maintenance](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Dynamic%20Map%20Maintenance): There are some methods about map maintaince through dynamic removal.
-
 - [Long-term Relocalization and Place Recognition](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Long-term%20Relocalization%20and%20Place%20Recognition): There are some methods about Place Recognition and Loop Closure.
+
+- [Dynamic Map Maintenance](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Dynamic%20Map%20Maintenance): There are some methods about map maintaince through dynamic removal.
 
 ongoing update...
 
