@@ -7,9 +7,12 @@ The structure of the entire repository is as follows:
 
 ```
 SLAM_Paper
-├─Laser SLAM
+├─Lidar SLAM
 │   ├─Dynamic SLAM
+│   ├─Learning-based SLAM
+│   ├─Mesh SLAM
 │   ├─NeRF SLAM
+│   ├─Object SLAM
 │   └─Traditional SLAM
 |      ├─2D
 |      └─3D
@@ -35,19 +38,25 @@ SLAM_Paper
 
 ```
 
-## [Laser SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM)
+## [LiDAR SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM)
 
-This folder mainly stores various SLAM algorithms based on Laser, and is divided into the following parts according to different application fields or research methods:
+This folder mainly stores various SLAM algorithms based on LiDAR, and is divided into the following parts according to different application fields or research methods:
 
 - [Dynamic SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Dynamic%20SLAM): The application of SLAM algorithm in dynamic scenarios, including dynamic object detection and removal, etc.
+
+- [Learning-based SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
+
+- [Mesh SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mesh%20SAM): A novel method that builds the mesh map and solve the pose by point-to-mesh for SLAM.
   
 - [NeRF SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/NeRF%20SLAM): This is a relatively new SLAM algorithm, which mainly integrates [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF) ideas(very hot in 2020) into laser SLAM. At present, there are few reasches, but it is a very hot and concerned direction.
+
+- [Object SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Object%20SLAM): There are some methods with estimate both self-pose and object's pose, using object pose to impose the constrains to the odometry.
   
 - [Traditional SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM): Without the use of advanced algorithms (such as neural networks, etc.), the pose of the robot is usually calculated by feature extraction and feature matching algorithms such as ICP. It is further divided into 2D and 3D application scenarios:
   
   - [2D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/2D): Just includes some classic paper, such as gmapping, cartographer, etc.
     
-  - [3D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/3D): LOAM series algorithm is the main component(LOAM, LeGO-LOAM, LIO-SAM, etc.)
+  - [3D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/3D): LOAM series algorithm is the main component(LOAM, LeGO-LOAM, LIO-SAM, etc.) -- recently updated some LO methods.
 
 ## [Related Method](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method)
 
