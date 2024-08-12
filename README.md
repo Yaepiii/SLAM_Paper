@@ -47,7 +47,7 @@ This folder mainly stores various SLAM algorithms based on LiDAR, and is divided
 
 - [Learning-based SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
 
-- [Mapping](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
+- [Mapping](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mapping): LiDAR Mappin module and some interesting mapping methods in SLAM.
 
 - [Mesh SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mesh%20SLAM): A novel method that builds the mesh map and solve the pose by point-to-mesh for SLAM.
   
