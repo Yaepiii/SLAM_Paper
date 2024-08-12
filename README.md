@@ -10,6 +10,7 @@ SLAM_Paper
 ├─Lidar SLAM
 │   ├─Dynamic SLAM
 │   ├─Learning-based SLAM
+│   ├─Mapping
 │   ├─Mesh SLAM
 │   ├─NeRF SLAM
 │   ├─Object SLAM
@@ -45,6 +46,8 @@ This folder mainly stores various SLAM algorithms based on LiDAR, and is divided
 - [Dynamic SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Dynamic%20SLAM): The application of SLAM algorithm in dynamic scenarios, including dynamic object detection and removal, etc.
 
 - [Learning-based SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
+
+- [Mapping](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
 
 - [Mesh SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mesh%20SLAM): A novel method that builds the mesh map and solve the pose by point-to-mesh for SLAM.
   
