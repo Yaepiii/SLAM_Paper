@@ -12,6 +12,7 @@ SLAM_Paper
 │   ├─Learning-based SLAM
 │   ├─Mapping
 │   ├─Mesh SLAM
+│   ├─Multi-Session & Multi-Agent SLAM
 │   ├─NeRF SLAM
 │   ├─Object SLAM
 │   └─Traditional SLAM
@@ -47,9 +48,11 @@ This folder mainly stores various SLAM algorithms based on LiDAR, and is divided
 
 - [Learning-based SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
 
-- [Mapping](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mapping): LiDAR Mappin module and some interesting mapping methods in SLAM.
+- [Mapping](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mapping): LiDAR Mapping module and some interesting mapping methods in SLAM.
 
 - [Mesh SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Mesh%20SLAM): A novel method that builds the mesh map and solve the pose by point-to-mesh for SLAM.
+
+- [Multi-Session & Multi-Agent SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Multi-Session%20%26%20Multi-Agent%20SLAM): There are some methods about Multi-Session & Multi-Agent SLAM, which may become my future research topic.
   
 - [NeRF SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/NeRF%20SLAM): This is a relatively new SLAM algorithm, which mainly integrates [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF) ideas(very hot in 2020) into laser SLAM. At present, there are few reasches, but it is a very hot and concerned direction.
 
@@ -59,7 +62,7 @@ This folder mainly stores various SLAM algorithms based on LiDAR, and is divided
   
   - [2D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/2D): Just includes some classic paper, such as gmapping, cartographer, etc.
     
-  - [3D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/3D): LOAM series algorithm is the main component(LOAM, LeGO-LOAM, LIO-SAM, etc.) -- recently updated some LO methods.
+  - [3D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/3D): Some typical and classic LiDAR LO or SLAM systems, which is my main research directions.
 
 ## [Related Method](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method)
 
