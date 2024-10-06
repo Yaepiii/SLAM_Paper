@@ -18,24 +18,26 @@ SLAM_Paper
 │   └─Traditional SLAM
 |      ├─2D
 |      └─3D
+|─Long-term Localization and Mapping
+|   ├─Dynamic Map Maintenance
+|   └─Long-term Relocalization and Place Recognition
 |─Related Method
+|   ├─Classsification
+|   ├─Datasets
 |   ├─Feature Detection
 |   ├─MOS
 |   ├─MVS
 |   ├─NeRF
-|   ├─Network
+|   ├─Object Detection
 |   └─Semantic Segmentation
 └─Visual SLAM
-|   ├─Dynamic SLAM
-|   ├─Learning-based SLAM
-|   ├─NeRF SLAM
-|   ├─Objects SLAM
-|   └─Traditional SLAM
-|      ├─Direct-based
-|      └─Feature-based
-└─Long-term Localization and Mapping
-    ├─Dynamic Map Maintenance
-    └─Long-term Relocalization and Place Recognition
+    ├─Dynamic SLAM
+    ├─Learning-based SLAM
+    ├─NeRF SLAM
+    ├─Objects SLAM
+    └─Traditional SLAM
+       ├─Direct-based
+       └─Feature-based
 
 
 ```
@@ -69,6 +71,8 @@ This folder mainly stores various SLAM algorithms based on LiDAR, and is divided
 This folder mainly stores algorithms that assist SLAM:
 
 - [Classification](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/Classsification): Some classic papers about classification method.
+
+- [Datasets](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/Datasets): Some classic datasets paper, including LiDAR, cameras, IMU, wheel odometry etc.
 
 - [MOS](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/MOS): Some classic papers about Moving Object Segmentation, which will make some contributions to Dynamic SLAM and Long-term map maintenance.
 
