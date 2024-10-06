@@ -1,7 +1,7 @@
 # SLAM_Paper
-This repository is a collection of SLAM papers that I read during my studies, which I think are of value to read for both beginners and experienced researchers.
+This repository is a collection of SLAM papers that I read during my research, which I think are of value to read for both beginners and experienced researchers.
 
-The research areas I am most interested in in SLAM tend to be semantic SLAM, dynamic SLAM, and object SLAM, so the papers in the related area may be updated more frequently.
+The research areas I am most interested in in SLAM tend to be 3D LiDAR SLAM, dynamic SLAM, offline dynamic map maintenance, so the papers in the related area may be updated more frequently.
 
 The structure of the entire repository is as follows:
 
@@ -111,7 +111,7 @@ This folder mainly stores various methods on long-term localization and mapping 
 
 - [Dynamic Map Maintenance](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Dynamic%20Map%20Maintenance): There are some methods about map maintaince through dynamic removal.
 
-ongoing update...
+This repo is updating...
 
 
 
