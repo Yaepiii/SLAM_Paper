@@ -21,6 +21,7 @@ SLAM_Paper
 |─Long-term Localization and Mapping
 |   ├─Dynamic Map Maintenance
 |   └─Long-term Relocalization and Place Recognition
+|─Multi-sensor SLAM
 |─Related Method
 |   ├─Classsification
 |   ├─Datasets
@@ -46,7 +47,7 @@ SLAM_Paper
 
 This folder mainly stores various SLAM algorithms based on LiDAR, and is divided into the following parts according to different application fields or research methods:
 
-- [Dynamic SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Dynamic%20SLAM): The application of SLAM algorithm in dynamic scenarios, including dynamic object detection and removal, etc.
+- [Dynamic SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Dynamic%20SLAM): The application of SLAM algorithm in dynamic scenarios, including dynamic object detection and removal, etc.
 
 - [Learning-based SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Learning-based%20SLAM): Estimate the odometry of robot by using deep learning method.
 
@@ -56,15 +57,15 @@ This folder mainly stores various SLAM algorithms based on LiDAR, and is divided
 
 - [Multi-Session & Multi-Agent SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Multi-Session%20%26%20Multi-Agent%20SLAM): There are some methods about Multi-Session & Multi-Agent SLAM, which may become my future research topic.
   
-- [NeRF SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/NeRF%20SLAM): This is a relatively new SLAM algorithm, which mainly integrates [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF) ideas(very hot in 2020) into laser SLAM. At present, there are few reasches, but it is a very hot and concerned direction.
+- [NeRF SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/NeRF%20SLAM): This is a relatively new SLAM algorithm, which mainly integrates [NeRF](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method/NeRF) ideas(very hot in 2020) into LiDAR SLAM. At present, there are few reasches, but it is a very hot and concerned direction.
 
 - [Object SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Object%20SLAM): There are some methods with estimate both self-pose and object's pose, using object pose to impose the constrains to the odometry.
   
-- [Traditional SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM): Without the use of advanced algorithms (such as neural networks, etc.), the pose of the robot is usually calculated by feature extraction and feature matching algorithms such as ICP. It is further divided into 2D and 3D application scenarios:
+- [Traditional SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Tranditional%20SLAM): Without the use of advanced algorithms (such as neural networks, etc.), the pose of the robot is usually calculated by feature extraction and feature matching algorithms such as ICP. It is further divided into 2D and 3D application scenarios:
   
-  - [2D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/2D): Just includes some classic paper, such as gmapping, cartographer, etc.
+  - [2D](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Tranditional%20SLAM/2D): Just includes some classic paper, such as gmapping, cartographer, etc.
     
-  - [3D](https://github.com/Yaepiii/SLAM_Paper/tree/main/Laser%20SLAM/Tranditional%20SLAM/3D): Some typical and classic LiDAR LO or SLAM systems, which is my main research directions.
+  - [3D](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM/Tranditional%20SLAM/3D): Some typical and classic LiDAR LO or SLAM systems, which is my main research directions.
 
 ## [Related Method](https://github.com/Yaepiii/SLAM_Paper/tree/main/Related%20Method)
 
@@ -114,6 +115,10 @@ This folder mainly stores various methods on long-term localization and mapping 
 - [Long-term Relocalization and Place Recognition](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Long-term%20Relocalization%20and%20Place%20Recognition): There are some methods about Place Recognition and Loop Closure.
 
 - [Dynamic Map Maintenance](https://github.com/Yaepiii/SLAM_Paper/tree/main/Long-term%20Localization%20and%20Mapping/Dynamic%20Map%20Maintenance): There are some methods about map maintaince through dynamic removal.
+
+## [Multi-sensor SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/Multi-sensor%20SLAM)
+
+This folder mainly stores various methods focusing on multi-sensor fusion SLAM.
 
 This repo is updating...
 
