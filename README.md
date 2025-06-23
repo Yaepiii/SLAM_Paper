@@ -7,6 +7,7 @@ The structure of the entire repository is as follows:
 
 ```
 SLAM_Paper
+├─Calibration
 ├─Lidar SLAM
 │   ├─Dynamic SLAM
 │   ├─Learning-based SLAM
@@ -42,6 +43,9 @@ SLAM_Paper
 
 
 ```
+## [Calibration](https://github.com/Yaepiii/SLAM_Paper/tree/main/Calibration)
+
+This folder mainly stores various sensor calibration methods.
 
 ## [LiDAR SLAM](https://github.com/Yaepiii/SLAM_Paper/tree/main/LiDAR%20SLAM)
 
